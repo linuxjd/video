@@ -1,0 +1,200 @@
+body {
+	background: none repeat scroll 0 0 #F1F1F1;
+}
+#body-container {
+	height: auto;
+	min-height: 100%;
+}
+#content-container,
+#body-container {
+	padding-bottom: 191px;
+	box-sizing: border-box;
+}
+html,
+body,
+#body-container {
+	height: 100%;
+}
+#content-container,
+#body-container {
+	padding-bottom: 191px;
+	box-sizing: border-box;
+}
+.page-container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.watch-stage-mode .watch-meidum {
+	margin-bottom: 10px;
+}
+#player {
+	width: 1003px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+#player.watch-medium {
+	width: 854px;
+}
+.watch-stage-mode #theater-background {
+	background-color: #1B1B1B;
+}
+#theater-background {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	transition: background-color 0.3s ease 0s;
+}
+.watch-stage-mode #player {
+	margin-top: 0px;
+}
+.player-height {
+	height: 390px;
+}
+.watch-medium .player-height {
+	height: 510px;
+}
+#player.watch-large #player-api,
+#player.watch-medium #player-api {
+	float: none;
+	margin: 0px auto;
+}
+.watch-medium .player-width {
+	width: 854px;
+}
+.player-height {
+	height: 390px;
+}
+.player-width {
+	width: 640px;
+}
+.player-api {
+	overflow: hidden;
+	background: none repeat scroll 0% 0% #000;
+}
+embed,
+object {
+	position: relative;
+}
+.player-api object,
+.player-api img,
+.player-api embed {
+	position: relative;
+	width: 100% !important;
+	height: 100% !important;
+}
+noembed {
+	display: none;
+}
+.content-alignment {
+	width: 1003px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+.watch .content-alignment,
+#player.watch-small {
+	width: auto;
+	min-width: 1003px;
+	max-width: 1066px;
+}
+#watch-header {
+	padding-bottom: 5px;
+}
+.vd-card.vd-card-has-padding {
+	padding: 15px;
+}
+.vd-card {
+	margin: 10px 0px;
+	border: 0px none;
+	background: none repeat scroll 0 0 #FFF;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+}
+#watch7-headline h1 {
+	margin-bottom: 10px;
+	line-height: normal;
+	overflow: hidden;
+}
+h1.vd {
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 0;
+	color: #222;
+}
+#watch7-user-header {
+	position: relative;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+#watch7-user-header .vd-user-info {
+	white-space: nowrap;
+	width: 380px;
+	color: #333;
+	font-weight: bold;
+}
+#watch7-user-header .vd-user-info a {
+	display: inline-block;
+	height: 22px;
+	color: #333;
+	font-weight: bold;
+	max-width: 315px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	white-space: nowrap;
+}
+a {
+	cursor: pointer;
+	color: #167AC6;
+	text-decoration: none;
+}
+#watch8-action-buttons {
+	position: relative;
+	padding-top: 5px;
+	border-top: 1px solid #E2E2E2;
+}
+#watch8-sentiment-actions {
+	float: right;
+}
+#watch7-views-info {
+	position: absolute;
+	bottom: 33px;
+	right: 0px;
+	min-width: 160px;
+	max-width: 220px;
+}
+.yt-uix-button-group {
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.watch-view-count {
+	font-size: 19px;
+	line-height: 24px;
+	position: absolute;
+	bottom: 6px;
+	right: 0px;
+	color: #666;
+}
+/*start of 清除浮动*/
+
+.clear {
+	clear: both;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix:before {
+	content: ".";
+	display: block;
+	height: 0px;
+	visibility: hidden;
+}
+/*end of 清除浮动*/

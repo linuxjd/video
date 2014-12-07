@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>视频播放界面</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/video.css">
+</head>
+
+<body>
+	<div id="body-container">
+		<div class="page-container">
+			<div id="page" class="watch watch-stage-mode">
+				<div id="player" class="watch-medium">
+					<div id="theater-background" class="player-height"></div>
+					<div class="player-mole-container">
+						<div id="player-api" class="player-width player-height off-screen-target player-api">
+							<embed type="application/x-shockwave-flash" src="https://s.ytimg.com/yts/swfbin/player-vflMftzmS/watch_as3.swf" name="movie_player" id="movie_player" allowscriptaccess="always" allowfullscreen="true" bgcolor="#000000">
+							<!--            <img src="image/video.png" alt="video">-->
+							<noembed>
+								<div class="yt-alert yt-alert-default yt-alert-error  yt-alert-player">
+									<div class="yt-alert-icon">
+										<span class="icon master-sprite yt-sprite"></span>
+									</div>
+									<div class="yt-alert-content" role="alert">
+										<div class="yt-alert-message">
+											您必须安装 Adobe Flash Player 才能观看此视频。
+											<br> <a href="http://get.adobe.com/flashplayer/">从 Adobe 下载</a>。
+										</div>
+									</div>
+									<div class="yt-alert-buttons"></div>
+								</div>
+							</noembed>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="content-alignment">
+					<div id="watch-header" class="vd-card vd-card-has-padding">
+						<div id="watch7-headline" class="clearfix">
+							<h1 id="watch-headline-title" class="vd">
+  							<span id="eow-title" class="watch-title " dir="ltr" title="GoPro: Backcountry with Basich - TV Commercial">
+   								GoPro: Backcountry with Basich - TV Commercial
+  							</span>
+    					</h1>
+						</div>
+						<div id="watch7-user-header" class="spf-link">
+							<div class="vd-user-info">
+								上传者：
+								<a href="#" class="vd-uix-session">
+								GoPro
+							</a>
+							</div>
+						</div>
+						<div id="watch8-action-buttons" class="watch-action-buttons clearfix">
+							<div id="watch8-sentiment-actions">
+								<div id="watch7-views-info">
+									<div class="watch-view-count">48,703</div>
+								</div>
+								<span id="watch-like-dislike-buttons" class="vd-uix-button-group actionable liked">
+										<button type="button" class="btn btn-default btn-lg">
+										<span class="glyphicon glyphicon-download-alt"></span> 180
+								</button>
+								<button type="button" class="btn btn-default btn-lg">
+									<span class="glyphicon glyphicon-star"></span>
+									456
+								</button>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
