@@ -43,12 +43,12 @@ body,
 }
 #theater-background {
 	position: absolute;
-	left: 0px;
+	left: 0;
 	width: 100%;
 	transition: background-color 0.3s ease 0s;
 }
 .watch-stage-mode #player {
-	margin-top: 0px;
+	margin-top: 0;
 }
 .player-height {
 	height: 390px;
@@ -59,7 +59,7 @@ body,
 #player.watch-large #player-api,
 #player.watch-medium #player-api {
 	float: none;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 .watch-medium .player-width {
 	width: 854px;
@@ -107,10 +107,10 @@ noembed {
 	padding: 15px;
 }
 .vd-card {
-	margin: 10px 0px;
-	border: 0px none;
+	margin: 10px0;
+	border: 0 none;
 	background: none repeat scroll 0 0 #FFF;
-	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	box-sizing: border-box;
 }
 #watch7-headline h1 {
@@ -162,7 +162,7 @@ a {
 #watch7-views-info {
 	position: absolute;
 	bottom: 33px;
-	right: 0px;
+	right: 0;
 	min-width: 160px;
 	max-width: 220px;
 }
@@ -176,7 +176,7 @@ a {
 	line-height: 24px;
 	position: absolute;
 	bottom: 6px;
-	right: 0px;
+	right: 0;
 	color: #666;
 }
 /*start of 清除浮动*/
@@ -187,14 +187,14 @@ a {
 .clearfix:after {
 	content: ".";
 	display: block;
-	height: 0px;
+	height: 0;
 	visibility: hidden;
 	clear: both;
 }
 .clearfix:before {
 	content: ".";
 	display: block;
-	height: 0px;
+	height: 0;
 	visibility: hidden;
 }
 /*end of 清除浮动*/
